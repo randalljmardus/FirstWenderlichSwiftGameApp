@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1598C16F1C99BA88006BAAB4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598C16E1C99BA88006BAAB4 /* main.swift */; };
+		1598C1761C99BC0A006BAAB4 /* helpers 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1598C1751C99BC0A006BAAB4 /* helpers 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1598C16B1C99BA88006BAAB4 /* First Wenderlich Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "First Wenderlich Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1598C16E1C99BA88006BAAB4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1598C1751C99BC0A006BAAB4 /* helpers 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "helpers 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1598C16E1C99BA88006BAAB4 /* main.swift */,
+				1598C1751C99BC0A006BAAB4 /* helpers 2.swift */,
 			);
 			path = "First Wenderlich Project";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1598C16F1C99BA88006BAAB4 /* main.swift in Sources */,
+				1598C1761C99BC0A006BAAB4 /* helpers 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
