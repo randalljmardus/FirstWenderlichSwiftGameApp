@@ -9,8 +9,10 @@
 import Foundation
 
 let answer = randomIntBetween(1, high: 100)
+var turn = 1
 
-print("Enter a number between 1 and 100.")
+while(true) {
+    print("Guess #\(turn): Enter a number between 1 and 100.")
 
 let userInput = input()
 let inputAsInt = Int(userInput)
@@ -24,8 +26,14 @@ else if (guess < answer) {
     }
 else {
     print("Correct! The answer was \(answer).")
+    break
     }
 }
 else {
     print("Invalid input! Please enter a number.")
+    continue
     }
+turn = turn + 1
+}
+
+print("It took you \(turn) tries.")
